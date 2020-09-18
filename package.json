@@ -22,10 +22,19 @@
   "dependencies": {
     "@nestjs/common": "^7.1.1",
     "@nestjs/core": "^7.1.1",
+    "@nestjs/passport": "^7.1.0",
     "@nestjs/platform-express": "^7.1.1",
+    "@nestjs/sequelize": "^0.1.1",
+    "@nestjs/typeorm": "^7.1.4",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.5.5"
+    "rxjs": "^6.5.5",
+    "sequelize": "^6.3.5",
+    "sequelize-typescript": "^1.1.0",
+    "typeorm": "^0.2.26"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.2.0",
@@ -65,5 +74,18 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestjs/typescript-starter.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/nestjs/typescript-starter/issues"
+  },
+  "homepage": "https://github.com/nestjs/typescript-starter#readme"
 }
